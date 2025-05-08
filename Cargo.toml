@@ -1,0 +1,22 @@
+[package]
+name = "count-tts-inner"
+version = "0.1.0"
+edition = "2018"
+
+authors = ["A4-Tacks <wdsjxhno1001@163.com>"]
+keywords = ["macro", "count", "token", "proc-macro"]
+categories = ["rust-patterns"]
+description = "A simple macro for counting any position tokens."
+
+license = "MIT"
+repository = "https://github.com/A4-Tacks/count-tts-inner-rs"
+readme = "README.md"
+
+[lib]
+proc-macro = true
+
+[dev-dependencies]
+count_tts = "0.2.0"
+
+[dependencies]
+proc-macro-tool = "0.8.0"
