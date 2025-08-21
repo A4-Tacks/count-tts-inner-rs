@@ -1,6 +1,6 @@
 [package]
 name = "count-tts-inner"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 
 authors = ["A4-Tacks <wdsjxhno1001@163.com>"]
@@ -14,9 +14,6 @@ readme = "README.md"
 
 [lib]
 proc-macro = true
-
-[dev-dependencies]
-count_tts = "0.2.0"
 
 [dependencies]
 proc-macro-tool = "0.8.0"
